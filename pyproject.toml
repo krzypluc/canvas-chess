@@ -8,6 +8,8 @@ packages = [{include = "chess_canvas"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+chess = "^1.9.4"
+fastapi = {extras = ["all"], version = "^0.89.1"}
 
 
 [build-system]
